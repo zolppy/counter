@@ -12,12 +12,10 @@ Null
 
 ## Principais conceitos ou tecnologias utilizados
 * HTML5;
-* CSS3;
 * SCSS;
 * BEM;
 * JavaScript;
-* React;
-* React Icons.
+* React.
 
 ## Principais conceitos ou tecnologias que podem vir a serem utilizados
 * Typescript.
