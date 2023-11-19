@@ -1,0 +1,45 @@
+@import '../abstract/variables';
+
+#App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  #App__container {
+    background-color: $soft-white;
+    border: 1px solid black;
+    border-radius: .7rem;
+    padding: 1rem;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #App__buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+
+    button {
+      border: none;
+      border-radius: .6rem;
+      font-size: 1.7em;
+      padding: .4rem .76rem;
+      display: flex;
+      align-items: center;
+
+      &:hover {
+        cursor: pointer;
+        transform: scale(.95);
+      }
+    
+      &:active {
+        transform: scale(1);
+      }
+    }
+  }
+}
