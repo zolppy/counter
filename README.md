@@ -1,6 +1,6 @@
 # Counter ([Abrir](https://teste-k7b7wcs6y-zolppys-projects.vercel.app/))
 
-Null
+Null.
 
 ## O que tem ou pode realizar
 * Null;
@@ -8,7 +8,7 @@ Null
 * Null.
 
 ## Melhorias futuras
-* Null;
+* Null.
 
 ## Principais conceitos ou tecnologias utilizados
 * HTML5;
