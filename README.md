@@ -1,4 +1,4 @@
-# Counter ([Abrir](https://teste-k7b7wcs6y-zolppys-projects.vercel.app/))
+# Counter
 
 Null.
 
