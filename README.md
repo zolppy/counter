@@ -1,14 +1,14 @@
 # Counter
 
-Null.
+Aplicação simples, desenvolvida para testar React e SASS.
 
 ## O que tem ou pode realizar
-* Null;
-* Null;
-* Null.
+* Decrementar valor de um contador;
+* Anular valor de um contador;
+* Incrementar valor de um contador.
 
 ## Melhorias futuras
-* Null.
+* ---
 
 ## Principais conceitos ou tecnologias utilizados
 * HTML5;
