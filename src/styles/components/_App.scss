@@ -7,8 +7,8 @@
   justify-content: center;
 
   #App__container {
-    background-color: $soft-white;
-    border: 1px solid black;
+    background-color: $container-bg-color;
+    border: $container-border;
     border-radius: .7rem;
     padding: 1rem;
     width: 330px;

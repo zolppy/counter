@@ -2,12 +2,12 @@
 
 * {
   box-sizing: border-box;
-  color: $soft-black;
+  color: $font-color;
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-image: linear-gradient(to bottom, skyblue, white);
-  font-family: $font;
+  background-image: linear-gradient($gradient);
+  font-family: $system-ui-font;
 }

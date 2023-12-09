@@ -1,6 +1,15 @@
-$soft-black: #000;
-$soft-white: #fff;
-$soft-red: #f66;
-$soft-green: #6f6;
-$soft-blue: #66f;
-$font: system-ui, -apple-system, sans-serif;
+/* Container */
+$container-bg-color: #fff;
+$container-border: 1px solid black;
+
+/* Fonte */
+$font-color: #000;
+$system-ui-font: system-ui, -apple-system, sans-serif;
+
+/* Botões */
+$decrement-button-color: #f66;
+$reset-button-color: #66f;
+$increment-button-color: #6f6;
+
+/* Outros */
+$gradient: to bottom, blue, orange;
