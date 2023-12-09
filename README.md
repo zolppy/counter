@@ -8,7 +8,7 @@ Aplicação simples, desenvolvida para testar React e SASS.
 * Incrementar valor de um contador.
 
 ## Melhorias futuras
-* ---
+* Não se aplica.
 
 ## Principais conceitos ou tecnologias utilizados
 * HTML5;
