@@ -1,5 +1,5 @@
-import { BsArrowClockwise } from 'react-icons/bs';
-import '../styles/components/_ResetButton.scss';
+import { BsArrowClockwise } from "react-icons/bs";
+import "../styles/components/_ResetButton.scss";
 
 export default function ResetButton({ onReset }) {
   return (

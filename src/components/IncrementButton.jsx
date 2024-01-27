@@ -1,10 +1,10 @@
-import { BsPlus } from 'react-icons/bs';
-import '../styles/components/_IncrementButton.scss';
+import { BsPlus } from "react-icons/bs";
+import "../styles/components/_IncrementButton.scss";
 
 export default function IncrementButton({ counter, onSetCounter, onReset }) {
   function handleIncrement() {
     if (counter < 99) {
-      onSetCounter(prevState => prevState + 1);
+      onSetCounter(prevCounter => prevCounter + 1);
     } else {
       onReset();
     }

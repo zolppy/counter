@@ -1,36 +1,29 @@
 @import '../abstract/variables';
 
 #App {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
   #App__container {
-    background-color: $container-bg-color;
-    border: $container-border;
-    border-radius: .7rem;
+    border: 1px solid rgba($color: #fff, $alpha: .2);
+    border-radius: 15px;
+    box-shadow: 2px 5px 10px rgba($color: #fff, $alpha: .2);
     padding: 1rem;
     width: 330px;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
   }
 
   #App__buttons {
-    width: 100%;
     display: flex;
-    justify-content: center;
-    gap: 2%;
+    gap: .4em;
 
     button {
-      border: none;
-      border-radius: .6rem;
-      font-size: 1.7em;
-      padding: .4rem .76rem;
-      display: flex;
-      align-items: center;
+      background-color: transparent;
+      border-style: solid;
+      border-radius: 7px;
+      border-width: 1px;
+      font-size: 1.7rem;
+      padding: .3em .7em;
 
       &:hover {
         cursor: pointer;
