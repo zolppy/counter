@@ -4,9 +4,9 @@ import { createContext, useContext, useState, ReactNode } from "react";
 
 interface CounterCtx {
     counter: number;
-    decreaseCounter: () => void;
-    resetCounter: () => void;
-    increaseCounter: () => void;
+    decreaseCounter(): void;
+    resetCounter(): void;
+    increaseCounter(): void;
 }
 
 const CounterCtx = createContext<CounterCtx | undefined>(undefined);
